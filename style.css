@@ -68,3 +68,35 @@ a {
     color: #ffffff;
     background-color: #17212b;
 }
+
+.homePage{
+    width: 100%;
+    height: 582;
+    top: 142px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 50px;
+}
+
+.leftBox{
+    width: 513px;
+    height: 458px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    background-color: grey;
+    
+}
+.rightBox{
+    width: 286px;
+    height: 458px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    text-align: center;
+    background-color: grey;
+    border: radius 100px;    
+}
