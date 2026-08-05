@@ -76,8 +76,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
-    padding: 20px 50px;
+    gap: 200px;
+    padding: 90px 50px;
 }
 
 .leftBox{
@@ -87,7 +87,7 @@ a {
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-    background-color: grey;
+    background-color: #ededed;
     
 }
 .rightBox{
@@ -97,6 +97,52 @@ a {
     flex-direction: column;
     justify-content:space-around;
     text-align: center;
-    background-color: grey;
-    border: radius 100px;    
+     background-color: #ededed;
+    border-radius: 47px;    
+}
+.homePage button{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 12px 30px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 200px;
+    cursor: pointer;
+    
+}
+
+.Companies-box{
+   background-color: #d6d6d6;
+   width: 1440px;
+   height: 296;
+   top: 724;
+   border: 1px;
+}
+
+.Companies-box h2{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.companiesArticle{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+
+}
+article h5{
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+}
+article{
+    display: flex;
+    width: 138.27px;
+    height: 110px;
+    top: 850px;
+    color: #17212b;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
 }
