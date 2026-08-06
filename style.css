@@ -1,5 +1,7 @@
 * {
     margin-top: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
    
 }
 
@@ -24,7 +26,7 @@ header a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url("img/roomWview.jpg");
+    background-image: url("img/beach.jpg");
 }
 
 .navbar-box .logo {
@@ -89,7 +91,8 @@ header a {
     background-image: url("img/roomview.jpg");
     text-align: center;
     color: white;
-    font-size: 35px;
+    font-size: 25px;
+   
     
 }
 .homePage .rightBox{
@@ -101,6 +104,8 @@ header a {
     text-align: center;
     border-radius: 47px;    
     background-image: url("img/roomWmassage.jpg");
+     color: white;
+    font-size: 25px;
 }
 .homePage button{
     display: flex;
@@ -115,7 +120,7 @@ header a {
 }
 
 .Companies-box{
-   background-color: #d6d6d6;
+   background-image: url("img/beach.jpg");
   
    height: 296;
    top: 724;
@@ -126,17 +131,24 @@ header a {
     display: flex;
     justify-content: center;
     padding: 20px;
+    color: rgb(155, 11, 11);
 }
 .companiesArticle{
+        
     display: flex;
     gap: 20px;
     justify-content: space-around;
+    opacity: 0.4;
+ 
+    
 
 }
 .companiesArticle article h5{
     display: flex;
     align-items: center;
     margin: 0px auto;
+    color: #261d03;
+    font-size: 35px;
 }
 .companiesArticle article{
     display: flex;
@@ -153,16 +165,17 @@ header a {
     display: flex;
     justify-content: center;
     margin: 30px 0px;
+    color: rgb(155, 11, 11);
 }
 
 .video-Box video{
-    width: 50%;
+    width: 70%;
     height: auto;
     margin: 0px auto;
     display: flex;
-    background-color: red;
 }
 .AppsFeatures {
+    color: rgb(155, 11, 11);
     background-color: #d6d6d6;
     height: 485px;
     display: flex;
@@ -192,11 +205,18 @@ header a {
     background: white;
     border-radius: 50%;
     margin: 0 auto 20px;
+    
+}
+.circle i{
+    font-size: 40px;
+    color: #c9a026;
+    line-height: 80px;
 }
 
 .AppsFeatures .card h3{
     margin-bottom: 10px;
 }
+
 
 .AppsFeatures .card p{
     color: #333;
