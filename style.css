@@ -86,7 +86,9 @@ header a {
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-    background-color: #ededed;
+    
+    background-image: url('roomview.jpg');
+
     
 }
 .homePage .rightBox{
