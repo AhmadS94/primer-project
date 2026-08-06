@@ -1,24 +1,23 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin-top: 0px;
+   
 }
 
 body {
-    width: 1440px;
+    
     height: 4306px;
     font-family: sans-serif;
     color: black;
     background-color: #ffffff;
 }
-
-a {
+header a {
     background-color: #ffffff;
     text-decoration: none;
 }
 
 
 .navbar-box {
-    width: 100%;
+    
     height: 142px;
     margin: 0 auto;  
     padding: 0 45px;
@@ -28,7 +27,7 @@ a {
     justify-content: space-between;
 }
 
-.logo {
+.navbar-box .logo {
     width: 218px;
     height: 59px;
     display: flex;
@@ -41,18 +40,18 @@ a {
 
 }
 
-.logo:hover {
+.navbar-box .logo:hover {
     color: #ffffff;
     background-color: #17212b;
 }
 
 
-.nav-links {
+.navbar-box .nav-links {
     display: flex;
     gap: 12px;
 }
 
-.nav-links a {
+.navbar-box .nav-links a {
     min-width: 114px;
     height: 58px;
     padding: 0 16px;
@@ -64,7 +63,7 @@ a {
     font-size: 18px;
 }
 
-.nav-links a:hover {
+.navbar-box .nav-links a:hover {
     color: #ffffff;
     background-color: #17212b;
 }
@@ -76,27 +75,127 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
-    padding: 20px 50px;
+    gap: 200px;
+    padding: 90px 50px;
 }
 
-.leftBox{
+.homePage .leftBox{
     width: 513px;
     height: 458px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-    background-color: grey;
+    background-color: #ededed;
     
 }
-.rightBox{
+.homePage .rightBox{
     width: 286px;
     height: 458px;
     display: flex;
     flex-direction: column;
     justify-content:space-around;
     text-align: center;
-    background-color: grey;
-    border: radius 100px;    
+     background-color: #ededed;
+    border-radius: 47px;    
+}
+.homePage button{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 12px 30px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 200px;
+    cursor: pointer;
+    
+}
+
+.Companies-box{
+   background-color: #d6d6d6;
+  
+   height: 296;
+   top: 724;
+   border: 1px;
+}
+
+.Companies-box h2{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.companiesArticle{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+
+}
+.companiesArticle article h5{
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+}
+.companiesArticle article{
+    display: flex;
+    width: 138.27px;
+    height: 110px;
+    top: 850px;
+    color: #17212b;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.video-Box h2{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.video-Box video{
+    width: 50%;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    background-color: red;
+}
+.AppsFeatures {
+    background-color: #d6d6d6;
+    height: 485px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 30px;
+    margin-top: 100px;
+   
+}
+
+.AppsFeatures-circle-box{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    width: 90%;
+}
+
+.AppsFeatures .card{
+    width: 250px;
+    text-align: center;
+}
+
+.AppsFeatures .circle{
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+.AppsFeatures .card h3{
+    margin-bottom: 10px;
+}
+
+.AppsFeatures .card p{
+    color: #333;
+    
 }
