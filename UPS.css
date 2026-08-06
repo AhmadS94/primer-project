@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ups-container{
+    background-color: #EDEDED;
+    padding-bottom: 70px;
+    width: 1440;
+    height: 743px;
+}
+
+
+
+.desc{
+font-family: Roboto;
+font-weight: 400;
+font-style: Regular;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 80px; 
+}
+
+
+
+/* Gallery */
+.gallery {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr ;
+gap: 50px 70px;
+justify-content: center ; 
+align-content: center;
+
+
+}
+
+.gallery .pic{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery img {
+width: 150px;
+height: 150px; 
+object-fit: cover;
+border-radius: 50%;
+ /* clip-path: circle(50%); */
+
+}
+
+
+.gallery p {
+  justify-self: center;
+  align-self: center;
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 150px;
+  
+
+}
+
+
+

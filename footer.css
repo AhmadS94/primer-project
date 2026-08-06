@@ -1,0 +1,96 @@
+
+body 
+{
+    background-color: #EDEDED;
+} 
+
+.fa 
+{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.Hotel-Description 
+{
+display: flex ;
+justify-content: center;
+font-family: Roboto;
+font-weight: 400;
+font-style: Regular;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+
+.fa:hover 
+{
+    opacity: 0.7;
+}
+
+.fa-facebook 
+{
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram 
+{
+  background: #125688;
+  color: white;
+}
+
+.fa-youtube 
+{
+  background: #bb0000;
+  color: white;
+}
+
+.fa-linkedin
+{
+  background: #007bb5;
+  color: white;
+}
+
+.nav ul 
+{
+font-family: Roboto;
+font-weight: 400;
+font-style: Regular;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+display: flex;
+gap: 30px;
+justify-content:space-around;
+list-style: none;
+}
+
+
+nav a:link 
+{
+text-decoration: none;
+color: #000000;
+display: block;
+}
+
+nav a:hover
+{
+    opacity: 0.7;
+    color: green;
+}
+
+section.Footer-Social-Media-Pic 
+{
+display: flex ;
+gap: 30px;
+justify-content:space-around;
+}
+
