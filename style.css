@@ -21,10 +21,10 @@ header a {
     height: 142px;
     margin: 0 auto;  
     padding: 0 45px;
-    background-color: #8f8f8f;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-image: url("img/roomWview.jpg");
 }
 
 .navbar-box .logo {
@@ -80,15 +80,16 @@ header a {
 }
 
 .homePage .leftBox{
+    
     width: 513px;
     height: 458px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-image: url("img/roomview.jpg");
     text-align: center;
-    
-    background-image: url('roomview.jpg');
-
+    color: white;
+    font-size: 35px;
     
 }
 .homePage .rightBox{
@@ -98,8 +99,8 @@ header a {
     flex-direction: column;
     justify-content:space-around;
     text-align: center;
-     background-color: #ededed;
     border-radius: 47px;    
+    background-image: url("img/roomWmassage.jpg");
 }
 .homePage button{
     display: flex;
